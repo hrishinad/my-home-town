@@ -12,6 +12,7 @@
   display: grid;
   grid-template-rows: 40vh auto 1fr 8vh;
   background: rgb(248, 201, 179);
+  overflow: hidden;
 }
 
 .App .reasons {
