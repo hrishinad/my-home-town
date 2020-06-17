@@ -147,8 +147,12 @@
     grid-template: 1fr 1fr / 0.2fr 1fr;
   }
 
+  .header-container .image-wrapper .image-container {
+    transform: skewX(0deg) translateX(0vw);
+  }
+
   .header-container .image-container img[alt="mumbai-3"] {
-    transform: translate(-50%, -70%) skewX(7deg) scale(1.2);
+    transform: translate(-50%, -70%) skewX(0deg) scale(1.2);
   }
 
   .header-container .text-wrapper h1 {
